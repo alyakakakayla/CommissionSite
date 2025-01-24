@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property="og:title" content="kayla | digital artist"/>
+        <meta property="og:image" content=""/>
+
+        <title>kayla | digital artist</title>
+        <link rel="icon" href="./media/pixelHead.png">
+        <link rel="stylesheet" href="style.css">
+        
+        <!--chivo mono import-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+        <!--montserrat import-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+        <!--dm serif display import-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+    </head> 
+    <body> 
+        <!--------------------------------navbar-------------------------------->
+        
+        <div class="navbar">
+            <a href="#welcome" id="no-underline">
+                <img src="./media/arrow.png" alt="Home button" style="height: 50px; width: 50px">
+            </a>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbutton"><img src="./media/checkbutton.png" alt="Navigation button" style="height: 40px"></label><!--&equiv;-->
+            <ul>
+                <li id="welcome-item"><a href="#welcome">WELCOME</a></li>
+                <li id="about-item"><a href="#about">ABOUT</a></li>
+                <li id="emote-item"><a href="#work">EMOTES</a></li>
+            </ul>
+        </div>
+
+        <!--------------------------------welcome-------------------------------->
+        <section id="backdrop-welcome">
+            <div id="welcome">
+                <!--art is EVERYwhere, art is EVERYthing-->
+                <h1 class="title"><span class="prefix">hi, I'm </span><span class="bold-welcome">KAYLA </span> 
+                    <span class="stacked-text">
+                    artist<br>designer<br>illustrator
+                    </span>
+                    <!--<br><h6 class="subtitle">KAYLA REDDICK<br><span class="bold-subtitle">graphic designer and illustrator</span></h6>-->
+                </h1>
+            </div>
+        </section>
+
+        <!--------------------------------about-------------------------------->
+        <div id="about">
+            <h1 class="title">
+                <span class="bold">about</span>
+            </h1>
+            <div class="container">
+                <div class="description">
+                    <p><span class="slight-bold">I'm just a city girl who loves to draw &#9825;</span><br>I only display paid commissions on this site - if you'd like to see more of what I can do, come visit my Instagram <span class="ig-hyperlink"><a href="https://instagram.com/alyakakakayla" target="_blank">@alyakakakayla &rarr;</a></span></p>
+                </div>
+                <div class="carousel-container">
+                    <!-- AUTO MOVING CAROUSEL !!!!! -->
+                </div>
+            </div>
+        </div>
+
+        <!--------------------------------work-------------------------------->
+        <div id="work">
+            <h1 class="title">
+                <span class="bold">work</span>
+            </h1>
+            <div class="container">
+
+                <div id="emote-container">
+                    <h3 class="work-titles">EMOTES</h3>
+                    <h4 class="work-subtitles"><span class="not-bold">aespa collection for </span><span class="mxybecb-twitch-hyperlink"><a href="https://www.twitch.tv/mxybecb" target="_blank">@mxybecb &rarr;</a></span></h4>
+                        <div class="carousel-container">
+                            <div class="carousel-emote">
+                                <ul class="emote-list">
+                                    <li class="image-wrapper"><img src="./media/giselleSlay.png" alt="Twitch emote of AESPA's Giselle made for a friend"></li>
+                                    <li class="image-wrapper"><img src="./media/giselleYawn.png" alt="Twitch emote of AESPA's Giselle made for a friend"></li>
+                                    <li class="image-wrapper"><img src="./media/karinaRage.png" alt="Twitch emote of AESPA's Karina made for a friend"></li>
+                                    <li class="image-wrapper"><img src="./media/ningningWave.png" alt="Twitch emote of AESPA's Ningning made for a friend"></li>
+                                    <li class="image-wrapper"><img src="./media/winterHeart.png" alt="Twitch emote of AESPA's Karina made for a friend"></li>
+                                </ul>
+                            </div>
+                        </div>
+                </div>
+
+            </div>
+        </div>
+
+<!--------------------------------contact-------------------------------->
+<div id="contact">
+    <h1 class="title">
+        <span class="bold">contact</span>
+    </h1>
+    <div class="container">
+        <div class="description">
+            <p>Interested in my work? Submit the form below or add me on Discord <span class="pink">@alyakakakayla</span></p>
+        </div>
+        <div class="form-container">
+            <form action="https://formsubmit.co/kjreddick03@gmail.com" method="post" name="contact" target="_blank">
+                <div class="input-row">
+                    <input type="text" name="name" placeholder="name *" required>
+                </div>
+                <div class="input-row">
+                    <input type="text" name="email" placeholder="email *" required>
+                </div>
+                <div class="input-row">
+                    <input type="text" name="subject" placeholder="subject">
+                </div>
+                <div class="input-row">
+                    <textarea name="message" placeholder="message *" required></textarea>
+                </div>
+                <div class="input-row">
+                    <input id="submit-button" type="submit" name="send" value="SUBMIT &rarr;" class="slide">
+                </div>
+            </form>
+        </div>
+    </div>
+
+</div> 
+
+
+
+        <!--------------------------------footer-------------------------------->
+        <section id="backdrop-footer">
+            <div id="footer">
+            <div class="footer-text">
+                <p>
+                    <span class="footer-bold">&lt;/&gt; </span> with <span class="footer-bold">&#9825; </span>by alyakakakayla 2025 &#169; 
+                </p>
+            </div>
+            <!--<div class="footer-images">
+                <a href="https://www.github.com/alyakakakayla" target="_blank"> <img src="./media/githublogo.png" alt="my github"></a>
+                <a href="https://www.linkedin.com/in/kayla-reddick-34a0a7235/" target="_blank"> <img src="./media/linkedinlogo.png" alt="my linkedin"></a>
+                <a href="https://www.instagram.com/alyakakakayla/" target="_blank"> <img src="./media/instagramlogo.png" alt="my instagram"></a>
+            </div>-->
+            
+        </section>       
+        <script src="main.js"></script>
+    </body>
+
+</html>
