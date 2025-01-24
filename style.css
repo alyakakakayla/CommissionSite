@@ -107,12 +107,12 @@ section {
     width: 100vw;
     height: 100vh;
     background: linear-gradient(-135deg, #ff28a6, #38bcda);
-    background-size: 150% 150%;
+    background-size: 200% 200%;
     position: relative;
-    animation: change 10s ease-in-out infinite;
+    animation: changebg 8s ease-in-out infinite;
 }
 
-@keyframes change {
+@keyframes changebg {
     0% {
         background-position: 0 50%;
     }
@@ -170,7 +170,7 @@ section {
 .bold-welcome {
     font-family: 'DM Serif Display', sans-serif;
     font-size: 80px;
-    animation: changeinvert 5s infinite alternate;
+    /*animation: changeinvert 5s infinite alternate;*/
     padding: 20px 5px 20px 10px;
 }
 
@@ -182,7 +182,7 @@ section {
     font-family: 'DM Serif Display', sans-serif;
     font-size: 60px;
     /*color: #000000;*/
-    animation: change 4s alternate infinite;
+    animation: change 3s alternate infinite;
 }
 
 
