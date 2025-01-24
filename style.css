@@ -188,8 +188,8 @@ section {
 
 /*--------------------------------about--------------------------------*/
 #about img {
-    width: 30%;
-    height: auto;
+    width: 400px;
+    height: 400px;
     padding: 20px;
 }
 #about .container {
@@ -588,12 +588,6 @@ textarea:focus {
         right: 0;
     }
 
-    #about img {
-        width: 50%;
-        height: auto;
-        padding: 30px;
-    }
-
 
     #about .container {
         flex-direction: column;
@@ -640,9 +634,9 @@ textarea:focus {
     }
 
     #about img {
-        width: 60%;
-        height: auto;
-        padding: 30px;
+        width: 400px;
+        height: 400px;
+        padding: 40px;
     }
 
     #about .container .description {
@@ -685,9 +679,10 @@ textarea:focus {
         padding-top: 35vh;
     }*/
 
+
     #about img {
-        width: 70%;
-        height: auto;
+        width: 250px;
+        height: 250px;
         padding: 20px;
     }
 
