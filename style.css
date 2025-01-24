@@ -187,6 +187,10 @@ section {
 
 
 /*--------------------------------about--------------------------------*/
+#about img {
+    width: 30%;
+    padding: 20px;
+}
 #about .container {
     display: flex;
     align-items: center;
@@ -582,6 +586,13 @@ textarea:focus {
         padding-top: 80px;
         right: 0;
     }
+
+    #about img {
+        width: 50%;
+        padding: 30px;
+    }
+
+
     #about .container {
         flex-direction: column;
         padding-right: 20px;
@@ -625,6 +636,12 @@ textarea:focus {
     .bold {
         font-size: 45px;
     }
+
+    #about img {
+        width: 60%;
+        padding: 30px;
+    }
+
     #about .container .description {
         padding-left: 20px;
         padding-right: 20px;
@@ -664,6 +681,11 @@ textarea:focus {
     /*#welcome {
         padding-top: 35vh;
     }*/
+
+    #about img {
+        width: 70%;
+        padding: 20px;
+    }
 
     #emote-container, #graphic-container, #illustrations-container, #ui-container, #fanart-container, #concept-container {
         margin: 20px 10px 20px 10px;
