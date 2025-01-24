@@ -71,7 +71,7 @@ html {
     width: 0;
     height: 3px;
     background-color: #000000;
-    transition: width 0.3s ease;
+    transition: width 0.5s ease;
 }
   
 .navbar a:hover::after {
@@ -182,7 +182,7 @@ section {
     font-family: 'DM Serif Display', sans-serif;
     font-size: 60px;
     /*color: #000000;*/
-    animation: change 3s alternate infinite;
+    animation: change 5s alternate infinite;
 }
 
 
