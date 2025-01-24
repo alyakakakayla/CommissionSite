@@ -284,6 +284,10 @@ section {
     text-decoration: none;
 }
 
+#work #emote-container .not-bold:hover {
+    color: #000000;
+}
+
 #graphic-container, #ui-container, #illustrations-container, #fanart-container, #concept-container, #emote-container {
     margin: 60px 40px 60px 40px;
     overflow-x: hidden;
