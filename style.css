@@ -189,6 +189,7 @@ section {
 /*--------------------------------about--------------------------------*/
 #about img {
     width: 30%;
+    height: auto;
     padding: 20px;
 }
 #about .container {
@@ -589,6 +590,7 @@ textarea:focus {
 
     #about img {
         width: 50%;
+        height: auto;
         padding: 30px;
     }
 
@@ -639,6 +641,7 @@ textarea:focus {
 
     #about img {
         width: 60%;
+        height: auto;
         padding: 30px;
     }
 
@@ -684,6 +687,7 @@ textarea:focus {
 
     #about img {
         width: 70%;
+        height: auto;
         padding: 20px;
     }
 
