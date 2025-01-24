@@ -106,7 +106,7 @@ section {
     z-index: 0;
     width: 100vw;
     height: 100vh;
-    background: linear-gradient(-135deg, #ff28a6, #27e219);
+    background: linear-gradient(-135deg, #ff28a6, #50f444);
     background-size: 200% 200%;
     position: relative;
     animation: changebg 8s ease-in-out infinite;
@@ -551,7 +551,7 @@ textarea:focus {
         color: #ff28a6;
     }
     100% {
-        color: #27e219;
+        color: #50f444;
     }
 }
 
